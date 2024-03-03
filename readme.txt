@@ -1,4 +1,6 @@
 This the first iteration of the code, more inspections needs to be done 
+
+
 had to remove the history of the project after encountering an error.
 
 error: remote: error: File runs/detect/train6/demo3.mp4 is 125.45 MB; this exceeds GitHub's file size limit of 100.00 MB
