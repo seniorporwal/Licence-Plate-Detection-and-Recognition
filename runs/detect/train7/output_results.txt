@@ -1,2 +1,0 @@
-Detected text: EXAMPLE, Confidence: 0.25
-Detected text: EXANPLE, Confidence: 0.28
