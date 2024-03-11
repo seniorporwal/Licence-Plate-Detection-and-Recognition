@@ -99,9 +99,9 @@ class DetectionPredictor(BasePredictor):
                 ocr = getOCR(im0,xyxy)
                 if ocr != "":
                     label = ocr
-                    output_string = f"Detected text: {ocr}, Confidence: {conf:.2f}" # Append output to a string
-                    log_string += output_string + "\n"
-                    save_output_to_txt(output_string,output_file_path)  # Save to a text file
+                    # output_string = f"Detected text: {ocr}, Confidence: {conf:.2f}" # Append output to a string
+                    # log_string += output_string + "\n"
+                    # save_output_to_txt(output_string,output_file_path)  # Save to a text file
                     
                 self.annotator.box_label(xyxy, label, color=colors(c, True))
                 
